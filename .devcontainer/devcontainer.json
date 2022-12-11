@@ -1,0 +1,16 @@
+{
+	"name": "TOPPERS ASP3",
+	"dockerFile": "Dockerfile",
+	"runArgs": ["--init"],
+	"mounts": [],
+	"overrideCommand": false,
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools"
+			]
+		}
+	},
+	"remoteUser": "user"
+}
